@@ -41,12 +41,16 @@ nav {
     flex-shrink: 0;
 }
 
+.nav-right a {
+    text-decoration: none;
+    color: #3C354F;
+}
 
 
 
 .nav-right {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     list-style: none;
     align-items: center;
     color: #3C354F;
@@ -68,4 +72,113 @@ nav {
 
 .g-color {
     color: var(--primary-color);
+}
+
+/* First section  */
+
+.goat-section {
+    display: flex;
+
+
+}
+
+.goat-left {
+    padding-top: 9rem;
+    text-align: left;
+    background-image: url("../images/goat-bg.png");
+    border-image-repeat: repeat;
+    background-position: center left;
+    background-size: contain;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    /* width: 56.3125rem;
+    height: 43.75rem; */
+    flex-shrink: 0;
+    background-position: absolute;
+    flex-basis: 50%;
+
+}
+
+.goat-items {
+    /* padding-left: 2rem; */
+}
+
+
+.goat-title-first {
+    color: #0B0223;
+    /* text-align: center; */
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 12rem;
+}
+
+.goat-title-goat {
+    /* text-align: center; */
+    margin-left: 12rem;
+    font-family: Work Sans;
+    font-size: 5.9375rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.goat-description {
+    gap: 0.5rem;
+    display: flex;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    padding: .5rem;
+    margin-left: 12rem;
+}
+
+/* btn goat */
+.btn-goat-l {
+    border-radius: 3rem;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 1.3125rem 2.5rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 2.5rem;
+    margin-left: 12rem;
+}
+
+.btn-goat-r {
+    display: inline-flex;
+    padding: 1.3125rem 2.5rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 3rem;
+    background: #4EC5F7;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 1rem;
+}
+
+/* right */
+
+
+.goat-right img {
+    flex-basis: 50%;
+
 }
