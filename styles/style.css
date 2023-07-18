@@ -3,3 +3,22 @@
 * {
     font-family: Work Sans;
 }
+
+
+/* Nav styles  */
+nav {
+    display: flex;
+}
+
+
+
+.nav-left {
+    display: flex;
+
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
