@@ -219,7 +219,7 @@ nav {
     line-height: 30px;
     margin: 22px 0;
     /* 166.667% */
-    border: 1px solid tomato;
+
 }
 
 
@@ -341,9 +341,11 @@ nav {
 
 .play-section-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding-bottom: 96px;
+    gap: 209px;
+    padding-left: 128px;
 }
 
 .play-section {
@@ -375,7 +377,7 @@ nav {
 
 .play-item-content {
     display: flex;
-    width: 25%;
+    width: 29%;
     justify-content: center;
     align-items: center;
     text-align: right;
@@ -427,13 +429,19 @@ nav {
     align-items: center;
     border-radius: 50px;
     background: #FFF;
+    color: #0B0223;
 
 
 }
 
+.c-box:hover {
+    border: 1px solid #F948B2;
+    color: #F948B2;
+}
+
 
 .c-box p {
-    color: #0B0223;
+
 
     font-weight: 600;
 }
