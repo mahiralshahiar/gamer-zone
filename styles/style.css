@@ -7,6 +7,10 @@
     /* max-width: 1440px; */
 }
 
+.color-primary {
+    color: #FF42A5;
+}
+
 :root {
     --primary-color: #FF42A5;
 }
@@ -243,13 +247,265 @@ nav {
     width: 90%;
 }
 
+/* funny games */
+.f-title {
+    margin-top: 80px;
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-vid {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.f-description {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.box-text {
+    width: 342px;
+    padding: 2px;
+
+}
+
+.box-container {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-container img {
+    width: 300px;
+}
+
+.box {
+    position: relative;
+    width: 343px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.box-item {
+    top: 0;
+    border-radius: 15px;
+    left: 20px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    width: 300px;
+    height: 350px;
+    border: 2px solid #FF42A5;
 
 
 
+}
+
+.box h3 {
+    color: #FF42A5;
+}
+
+.box-item:hover {
+    opacity: 100%;
+
+}
 
 
+/* Play section title */
+
+.play-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 96px;
+}
+
+.play-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-top: 50px;
+
+}
+
+.play-play {
+    background-color: rgba(255, 66, 165, 0.03);
+}
 
 
+.play-title {
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.play-colored-title {
+    line-height: 60px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F948B2;
+    text-align: right;
+}
+
+.play-item-content {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.play-img-small {
+
+    position: absolute;
+    bottom: -100px;
+    left: -50px;
+}
+
+.second-img img {
+    width: 100%;
+}
+
+.play-img-container {
+    position: relative;
+    width: 50%;
+}
+
+
+/* Game category */
+.game-cetagorry {
+
+    /* max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px; */
+    background-color: rgba(255, 66, 165, 0.03);
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.cetagorry {
+    display: flex;
+    gap: 30px;
+    flex-basis: content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 130px;
+    max-width: 1200px;
+}
+
+.c-box {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+
+
+}
+
+
+.c-box p {
+    color: #0B0223;
+
+    font-weight: 600;
+}
+
+
+/* footer */
+footer {
+    background-color: #0B0223;
+    color: white;
+    padding-top: 130px;
+    padding-top: 150px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-logo h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.footer-container,
+.footer-row {
+    display: grid;
+    max-width: 923px;
+    margin: 0 auto;
+    margin-top: 61px;
+
+
+}
+
+.footer-row {
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+}
+
+.footer-icon {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.trams {
+    display: grid;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.copyright p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+
+/*  */
 
 
 
@@ -345,5 +601,39 @@ nav {
     .unleash {
         font-size: 20px;
     }
+
+    /*  */
+    .box-container {
+        flex-direction: column;
+    }
+
+
+
+    /* Play section */
+    .play-section {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+
+    .play-section-container {
+        flex-direction: column;
+
+    }
+
+    .play-item-content {
+        display: flex;
+        width: 43%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+
 
 }
