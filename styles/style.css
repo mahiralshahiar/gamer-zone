@@ -48,6 +48,7 @@ nav {
 .nav-right a {
     text-decoration: none;
     color: #3C354F;
+
 }
 
 
@@ -629,8 +630,14 @@ footer {
         margin-top: 0px;
     }
 
+    .nav-right {
+        gap: 25px;
 
+    }
 
+    .nav-left {
+        margin-bottom: 5px;
+    }
 
 
 
