@@ -524,63 +524,52 @@ footer {
 
 
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width : 576px) {
+
     * {
-        margin: 0px;
-        padding: 5px;
+        max-width: 576px;
     }
 
     nav,
-    #nav-content {
+    #nav-content,
+    .nav-right,
+    .box-container,
+    .play-section-container,
+    .gammer {
 
         flex-direction: column;
         box-shadow: none;
         padding: 0px;
     }
 
-    .goat-section {
-
-        flex-direction: column-reverse;
-
-
-
-    }
-
-    .nav-left {
-        justify-content: center;
-        width: 96%;
-
-
-    }
-
-    .goat-section {
-        gap: 101px;
-    }
-
-    .goat-img {
-        width: 100%;
-    }
-
-    #nav-ul {
-        display: flex;
-        list-style: none;
+    nav {
         align-items: center;
-        gap: 18px;
+    }
+
+
+    .play-section-container {
+
         flex-direction: column;
-    }
-
-    .nav-box {}
-
-    .goat-container {
-        padding-left: 0px;
-    }
-
-
-
-    /* gammer part */
-    .gammer {
+        box-shadow: none;
         padding: 0px;
-        flex-direction: column;
+    }
+
+    .play-img-big {
+        height: 18rem
+    }
+
+    .play-img-small img {
+        height: 10rem;
+    }
+
+    .cetagorry {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gammer,
+    .gammer-container {
+        align-items: center;
         text-align: center;
     }
 
@@ -588,56 +577,11 @@ footer {
         text-align: center;
     }
 
-    .gammer-container {
-        text-align: center;
-    }
-
-    .gammer-text {
-        text-align: center;
-        font-size: 20px;
-    }
-
     .gammer-title {
         text-align: center;
     }
 
-    .btn-goat-l {
 
-        font-size: 18px;
-    }
-
-    .unleash {
-        font-size: 20px;
-    }
-
-    /*  */
-    .box-container {
-        flex-direction: column;
-    }
-
-
-
-    /* Play section */
-    .play-section {
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-
-    .play-section-container {
-        flex-direction: column;
-
-    }
-
-    .play-item-content {
-        display: flex;
-        width: 43%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
 
 
 
