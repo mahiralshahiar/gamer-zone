@@ -564,7 +564,8 @@ footer {
 
     .cetagorry {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
     }
 
     .gammer,
@@ -624,7 +625,9 @@ footer {
     }
 
 
-
+    .play-section {
+        margin-top: 0px;
+    }
 
 
 
