@@ -311,4 +311,39 @@ nav {
         padding-left: 0px;
     }
 
+
+
+    /* gammer part */
+    .gammer {
+        padding: 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gammer-description {
+        text-align: center;
+    }
+
+    .gammer-container {
+        text-align: center;
+    }
+
+    .gammer-text {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .gammer-title {
+        text-align: center;
+    }
+
+    .btn-goat-l {
+
+        font-size: 18px;
+    }
+
+    .unleash {
+        font-size: 20px;
+    }
+
 }
