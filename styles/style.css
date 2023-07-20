@@ -515,5 +515,14 @@ footer {
     padding-bottom: 100px;
 }
 
+.box p {
+    scale: 0.8;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.play-description {
+    color: #534C64;
+}
 
 /*  */
