@@ -5,6 +5,10 @@
         justify-content: center;
     }
 
+    .nav-right {
+        padding-top: 8px;
+    }
+
     /* ;.goat-section {
         scale: 0.8
     }
@@ -89,6 +93,7 @@
         flex-direction: column-reverse;
         gap: 20px;
         padding-left: 0;
+        padding-bottom: 0;
 
     }
 
@@ -130,7 +135,14 @@
     /*  */
 
 
+    .cetagorry {
+        margin-top: 80px;
+        padding-bottom: 0;
+    }
 
+    .f-container {
+        scale: 0.8;
+    }
 
 
 
