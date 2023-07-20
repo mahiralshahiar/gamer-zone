@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
     /* max-width: 1440px; */
+    scroll-behavior: smooth;
 }
 
 .color-primary {
@@ -341,6 +342,28 @@ nav {
     padding-top: 15px;
 
 
+}
+
+.nav-right a:hover {
+    color: black;
+    transition: 0.1s;
+
+
+
+}
+
+.footer-icon a:hover {
+    scale: 1.1;
+}
+
+.footer-row a:hover {
+    color: white;
+    transition: 0.1s;
+}
+
+.trams a:hover {
+    color: white;
+    transition: 0.1s;
 }
 
 
