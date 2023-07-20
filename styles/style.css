@@ -565,7 +565,7 @@ footer {
 
     .cetagorry {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 0.2fr);
         justify-content: center;
     }
 
@@ -639,12 +639,33 @@ footer {
         margin-bottom: 5px;
     }
 
+    .goat-section {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
 
+    .goat-container {
+        padding: 2px;
+    }
 
+    .gammer {
+        padding-top: 30px;
+    }
 
+    .f-title {
+        margin-top: 50px;
+    }
 
-
-
+    .c-box {
+        display: flex;
+        /* gap: 10px; */
+        /* padding: 5px; */
+        border-radius: 50px;
+        background: #FFF;
+        color: #0B0223;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 }
