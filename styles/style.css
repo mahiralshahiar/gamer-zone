@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
+
 * {
     font-family: Work Sans;
     margin: 0px;
@@ -334,13 +336,34 @@ nav {
 
 }
 
+.box-item h3 {
+
+    padding-top: 15px;
+
+
+}
+
+
+.btn-goat-l:hover {
+    background: #e22b95;
+    box-shadow: 2px 5px 10px #e22b95;
+
+}
+
+.btn-goat-r:hover {
+    background: #349ac6;
+    box-shadow: 2px 5px 10px #349ac6;
+}
+
+
+
 .box h3 {
     color: #FF42A5;
 }
 
 .box-item:hover {
     opacity: 100%;
-
+    transition: 0.3s;
 }
 
 
@@ -443,8 +466,9 @@ nav {
 }
 
 .c-box:hover {
-    border: 1px solid #F948B2;
+    border: 3px solid #F948B2;
     color: #F948B2;
+    transition: 90ms;
 }
 
 
@@ -541,4 +565,5 @@ footer {
 .btn-goat-r a {
     text-decoration: none;
     color: #FFF;
+
 }
