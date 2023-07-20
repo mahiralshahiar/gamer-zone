@@ -144,9 +144,17 @@
         scale: 0.8;
     }
 
+    footer {
+        padding-top: 20px;
+    }
 
+    .footer-container {
+        margin-top: 15px;
+    }
 
-
+    .copyright p {
+        padding-bottom: 20px;
+    }
 
     /*  */
 
@@ -178,6 +186,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+        padding-bottom: 25px;
     }
 
 

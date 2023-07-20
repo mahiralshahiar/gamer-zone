@@ -164,7 +164,10 @@
 
     .goat-section {
         flex-direction: column-reverse;
-        gap: 40px;
+        gap: 80px;
+        background-position: bottom center;
+        background-size: 140%;
+        padding-bottom: 50px;
     }
 
     .goat-container {

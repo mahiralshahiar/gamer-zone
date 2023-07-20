@@ -37,7 +37,10 @@ nav {
     display: flex;
     align-items: center;
     gap: 1.2rem;
+    cursor: pointer;
 }
+
+
 
 .nav-left img {
     width: 5.37756rem;
@@ -147,6 +150,7 @@ nav {
 }
 
 .btn-goat-l {
+    cursor: pointer;
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
@@ -161,6 +165,7 @@ nav {
 }
 
 .btn-goat-r {
+    cursor: pointer;
     display: inline-flex;
     padding: 21px 40px;
     align-items: flex-start;
@@ -526,3 +531,14 @@ footer {
 }
 
 /*  */
+.footer-row a,
+.trams a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.btn-goat-l a,
+.btn-goat-r a {
+    text-decoration: none;
+    color: #FFF;
+}
