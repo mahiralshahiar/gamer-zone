@@ -360,15 +360,22 @@ nav {
 }
 
 .footer-row a:hover {
-    color: white;
+    color: #FF42A5;
     transition: 0.1s;
+    font-weight: 500;
 }
 
 .trams a:hover {
-    color: white;
+    color: #FF42A5;
     transition: 0.1s;
+    font-weight: 500;
 }
 
+.copyright-l {
+
+    text-decoration: none;
+    color: white;
+}
 
 .btn-goat-l:hover {
     background: #e22b95;
