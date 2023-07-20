@@ -1,0 +1,182 @@
+@media screen and (min-width : 577px) and (max-width :960px) {
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* ;.goat-section {
+        scale: 0.8
+    }
+
+    .goat-container {
+        flex-basis: 50%;
+    }
+
+    .goat-img-container {
+        flex-basis: 50%;
+    }
+
+    .goat-img {
+        width: auto;
+        scale: 0.6;
+    } */
+    .goat-section {
+        /* scale: 0.8; */
+        flex-direction: column-reverse;
+        gap: 150px;
+
+        background-position: bottom center;
+        background-size: 80%;
+        padding-bottom: 50px;
+        margin-bottom: 100px;
+    }
+
+    .goat-container {
+        padding-left: 0;
+    }
+
+    /*  */
+
+
+    .gammer,
+    .gammer-container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .gammer-description {
+        text-align: center;
+    }
+
+    .gammer-title,
+    .gammer-text {
+        text-align: center;
+
+    }
+
+    .gammer-text {
+
+        padding-top: 5px;
+    }
+
+    .gammer {
+        padding-top: 70px;
+        flex-direction: column-reverse
+    }
+
+    .gammer-description br {
+        display: none;
+    }
+
+    .gammer img {
+        width: 100%;
+    }
+
+    /*  */
+
+    /* .play-section {
+        display: flex;
+        flex-direction: column;
+    } */
+
+
+
+
+
+    .play-section-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding-left: 0;
+
+    }
+
+    .play-item-content {
+
+        width: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .play-title {
+        padding-top: 120px;
+
+    }
+
+    .play-description {
+        max-width: 50%;
+    }
+
+    .play-all-text {
+        display: grid;
+        justify-items: center;
+        gap: 15px;
+    }
+
+    .play-img-container {
+        width: auto;
+    }
+
+    .play-img-big {
+        height: 18rem
+    }
+
+    .play-img-small img {
+        height: 10rem;
+    }
+
+    /*  */
+
+
+
+
+
+
+
+
+    /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
