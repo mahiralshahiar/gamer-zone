@@ -344,11 +344,14 @@ nav {
 
 }
 
+
+
 .nav-right a:hover {
     color: black;
-    transition: 0.1s;
-
-
+    transition: 90ms;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    padding: 10px;
 
 }
 
